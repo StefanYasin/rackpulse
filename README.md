@@ -1,3 +1,13 @@
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/StefanYasin/rackpulse?style=flat)]
+[![License](https://img.shields.io/github/license/StefanYasin/rackpulse?style=flat)]
+[![Issues](https://img.shields.io/github/issues/StefanYasin/rackpulse?style=flat)]
+[![Last commit](https://img.shields.io/github/last-commit/StefanYasin/rackpulse?style=flat)]
+[![Language](https://img.shields.io/github/languages/top/StefanYasin/rackpulse?style=flat)]
+
+</div>
+
 # 🖥️ rackpulse
 
 **Health monitoring + AI provisioning for legacy Dell PowerEdge servers on VMware ESXi 6.7.**
