@@ -84,3 +84,7 @@ python -m pytest tests/ -v   # 7/7 — threshold engine, no hardware needed
 ## License
 
 MIT
+
+---
+
+Built and maintained by **Stefan Yasin** — technical operations, infrastructure, and applied AI. [Portfolio](https://stefanyasin.github.io/) · [LinkedIn](https://www.linkedin.com/in/stefanyasin/) · [Buy me a coffee](https://buymeacoffee.com/stefanthepro)
