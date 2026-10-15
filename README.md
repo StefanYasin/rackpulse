@@ -6,6 +6,7 @@
 [![Last commit](https://img.shields.io/github/last-commit/StefanYasin/rackpulse?style=flat)]
 [![Language](https://img.shields.io/github/languages/top/StefanYasin/rackpulse?style=flat)]
 
+[![Tests](https://img.shields.io/github/actions/workflow/status/StefanYasin/rackpulse/ci.yml?style=flat&label=tests)]
 </div>
 
 # 🖥️ rackpulse
