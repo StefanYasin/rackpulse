@@ -82,6 +82,28 @@ python -m pytest tests/ -v   # 7/7 — threshold engine, no hardware needed
 - ESXi 6.7 uses legacy TLS — the connector builds a scoped permissive SSL context
 - The AI provisioning agent requires an OpenAI-compatible API key (optional)
 
+## FAQ
+
+**Do I need a real ESXi host to try it?**
+
+The threshold engine runs anywhere with plain Python, and its tests need no hardware. Live health collection needs an ESXi 6.7 host reachable over the network with pyVmomi installed.
+
+**What does it monitor?**
+
+CPU temperature, memory usage, RAID array status, PSU status, and fan speed against configurable thresholds, with severity escalation (warning, then critical) instead of a single alarm.
+
+**How do I run it once instead of continuously?**
+
+`python run.py --once` for a single check (cron friendly), or `--interval` for a loop.
+
+**What if my hardware reports different metrics?**
+
+Edit the thresholds in the config and feed your own readings into the engine. The core is metric-agnostic: it evaluates whatever readings you give it.
+
+**Is this maintained?**
+
+Yes. It was rebuilt in 2026 as the maintained alternative for legacy PowerEdge monitoring.
+
 ## License
 
 MIT
