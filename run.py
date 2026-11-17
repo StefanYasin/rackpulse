@@ -17,7 +17,11 @@ import os
 import sys
 import time
 
-from dotenv import load_dotenv
+try:
+    from dotenv import load_dotenv
+except ImportError:                      # CI/test envs without python-dotenv
+    def load_dotenv(*args, **kwargs):
+        pass
 
 from core import evaluate
 
